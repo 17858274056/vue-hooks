@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "outDir": "lib",
+        "target": "esnext",
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "declaration": true,
+        "declarationDir": "./types",
+        "paths": {
+            "@": [
+                "/src/views/*"
+            ]
+        }
+    },
+    "include": [
+        "src/**/*.ts",
+        "build/**/*.ts",
+    ]
+}
