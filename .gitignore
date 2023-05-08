@@ -1,3 +1,4 @@
 node_modules
 pnpm-lok.yaml
 dist
+.DS_Store

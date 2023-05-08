@@ -1,7 +1,7 @@
 {
   "name": "keylion-hooks",
-  "version": "1.0.8",
-  "description": "",
+  "version": "1.0.9",
+  "description": "vue3 hooks",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "type": "module",
@@ -9,6 +9,13 @@
   "scripts": {
     "build": "rollup -c",
     "build:vite": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/17858274056/vue-hooks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/17858274056/vue-hooks/issues"
   },
   "files": [
     "dist"
@@ -18,11 +25,14 @@
     "ajax",
     "vue"
   ],
-  "author": "",
+  "author": "yaho",
   "license": "ISC",
   "dependencies": {
     "lodash-es": "^4.17.21",
     "vue": "^3.2.47"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   },
   "devDependencies": {
     "vite": "^4.3.5",
